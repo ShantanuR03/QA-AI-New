@@ -74,7 +74,7 @@ function App() {
 
   async function uploadToS3(fileName, data) {
     const params = {
-      Bucket: 'cc208',
+      Bucket: 'cc-208',
       Key: fileName,
       Body: JSON.stringify(data),
       ContentType: 'application/json'
